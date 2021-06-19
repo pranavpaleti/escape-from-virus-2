@@ -29,7 +29,7 @@ boy.addAnimation("boy123",boyImage)
 boy.addAnimation("boyrunning",boyImage2)
 boy.scale=0.5
 
-ground=createSprite(200,550,2500,20);
+ground=createSprite(200,600,2500,20);
 ground.x = ground.width /2;
 gameover=createSprite(windowWidth/2,windowHeight/2,100,10);
 gameover.addImage(gameoverImage);
